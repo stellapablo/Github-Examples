@@ -26,3 +26,21 @@ From the Security tab, you can add features to your GitHub workflow to help avoi
 4. Remove sensitive data from a repository
 5. Branch protection rules
 6. Add a CODEOWNERS file
+
+~~~~
+A grading script exists under .github/workflows/grading.yml. You don't need to modify this workflow to complete this exercise. Altering the contents in this workflow can break the exercise's ability to validate your actions, provide feedback, or grade the results.
+~~~~
+
+
+# Automated security
+
+Detect and fix outdated dependencies with security vulnerabilities
+
+1. Repository dependency graphs
+2. Dependabot alerts: Dependabot scans your repository's dependency manifests and notifies you via pull request whenever a version you rely is marked as insecure.
+3. Automated dependency updates with Dependabot
+4. Automated code scanning
+5. Secret scanning
+
+
+
